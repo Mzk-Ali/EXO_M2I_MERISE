@@ -4,8 +4,8 @@
 personne(<ins>per_id</ins>, per_email, per_nom, per_prenom, per_date_naissance, per_rue, #vil_id)<br>
 ville(<ins>vil_id</ins>, vil_cp, vil_ville)<br>
 cours(<ins>cou_id</ins>, cou_titre, cou_date_debut, cou_date_fin, #per_instructeur_id)<br>
-instructeur()<br>
-membre()<br>
+instructeur(#per_id)<br>
+membre(#per_id)<br>
 </code>
 
 <code>
