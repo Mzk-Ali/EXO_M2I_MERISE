@@ -11,7 +11,7 @@ serie(<ins>serie_id</ins>, serie_nom)<br>
 </code>
 
 <code>
-archivage(<ins>arch_id</ins>, arch_date, #par_id, #bd_id)<br>
+archivage(<ins>arch_id</ins>, arch_date, #par_id, #serie_id)<br>
 exercer(<ins>exe_id</ins>, #met_id, #per_id)<br>
 ecrit(<ins>ecr_id</ins>, #per_id, #bd_id)<br>
 dessiner(<ins>des_id</ins>, #per_id, #bd_id)<br>
