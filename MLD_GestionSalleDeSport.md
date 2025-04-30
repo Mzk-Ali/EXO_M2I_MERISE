@@ -1,4 +1,4 @@
-<h1 align="center">Exercice MERISE GestionMagasin : Modèle Logique de Donnée</h1>
+<h1 align="center">Exercice MERISE Gestion de Salle de Sport : Modèle Logique de Donnée</h1>
 
 <code>
 personne(<ins>per_id</ins>, per_email, per_nom, per_prenom, per_date_naissance, per_rue, #vil_id)<br>
