@@ -1,14 +1,18 @@
 <h1 align="center">Exercice MERISE Gestion de Bibliothèque : Modèle Logique de Donnée</h1>
 
 <code>
-personne(<ins>per_id</ins>, per_email, per_nom, per_prenom, per_telephone, per_mdp, #per_superieur_id, #ser_id)<br>
-reservation(<ins>res_id</ins>, res_date, res_heure_debut, res_duree, res_statut_actuel, #per_reservation_id, #type_id, #sal_id)<br>
-salle(<ins>sal_id</ins>, sal_nom, sal_capacite)<br>
-type(<ins>type_id</ins>, type_libelle)<br>
-service(<ins>ser_id</ins>, ser_nom)<br>
+livre(<ins>liv_id</ins>, liv_titre, liv_date_publication, liv_nombre_page, liv_statut_emprunt, #aut_id)<br>
+auteur(<ins>aut_id</ins>, aut_nom, aut_prenom)<br>
+lecteur(<ins>lec_id</ins>, lec_nom, lec_prenom, lec_email, lec_telephone)<br>
+manga(<ins>liv_id</ins>, man_nom_original)<br>
+scolaire(<ins>liv_id</ins>, sco_niveau, #disc_id)<br>
+enfant(<ins>liv_id</ins>)<br>
+discipline(<ins>disc_id</ins>, disc_nom)<br>
+genre(<ins>gen_id</ins>, gen_nom)<br>
+
 </code>
 
 <code>
-archiver(<ins>arch_id</ins>, arch_statut, arch_date, #per_id, #res_id)<br>
-participer(<ins>par_id</ins>, #per_id, #res_id)<br>
+emprunter(<ins>emp_id</ins>, emp_date_emprunt, emp_date_retour, #lec_id, #liv_id)<br>
+categoriser(<ins>cat_id</ins>, #gen_id, #liv_id)<br>
 </code>
