@@ -1,4 +1,4 @@
-_age<h1 align="center">Exercice MERISE Gestion de Bibliothèque : Modèle Logique de Donnée</h1>
+<h1 align="center">Exercice MERISE Gestion de Bibliothèque : Modèle Logique de Donnée</h1>
 
 <code>
 livre(<ins>liv_id</ins>, liv_titre, liv_date_publication, liv_nombre_page, liv_statut_emprunt, #aut_id)<br>
